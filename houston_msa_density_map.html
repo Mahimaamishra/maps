@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8bfb8c94cfb01866b0719900a39c6e81 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8bfb8c94cfb01866b0719900a39c6e81" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8bfb8c94cfb01866b0719900a39c6e81 = L.map(
+                "map_8bfb8c94cfb01866b0719900a39c6e81",
+                {
+                    center: [29.7604, -95.3698],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_abec289d5f2ea5d67f17b8a647029aeb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_abec289d5f2ea5d67f17b8a647029aeb.addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var circle_46689768902f46afce3e72db3e574a3d = L.circle(
+                [29.7105, -95.4015],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8500, "stroke": true, "weight": 3}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+        var popup_bd19ea0ecc7ed1a6285e3b52347b922f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0671e8b3f2923fea0ad26822340062a = $(`<div id="html_f0671e8b3f2923fea0ad26822340062a" style="width: 100.0%; height: 100.0%;">TMC (ZIP 77030): 85 entities</div>`)[0];
+                popup_bd19ea0ecc7ed1a6285e3b52347b922f.setContent(html_f0671e8b3f2923fea0ad26822340062a);
+            
+        
+
+        circle_46689768902f46afce3e72db3e574a3d.bindPopup(popup_bd19ea0ecc7ed1a6285e3b52347b922f)
+        ;
+
+        
+    
+    
+            var circle_781a19a861905b909166db3803d4fa0e = L.circle(
+                [29.8035, -95.3305],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4500, "stroke": true, "weight": 3}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+        var popup_2958802f8aaa4febd255b41bb9dd7098 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4916357b9627d5803f37b548e69e8edd = $(`<div id="html_4916357b9627d5803f37b548e69e8edd" style="width: 100.0%; height: 100.0%;">Northeast Houston (ZIP 77026): 45 entities</div>`)[0];
+                popup_2958802f8aaa4febd255b41bb9dd7098.setContent(html_4916357b9627d5803f37b548e69e8edd);
+            
+        
+
+        circle_781a19a861905b909166db3803d4fa0e.bindPopup(popup_2958802f8aaa4febd255b41bb9dd7098)
+        ;
+
+        
+    
+    
+            var circle_12b9bc198a9fe6d51f263b065eefc099 = L.circle(
+                [29.7255, -95.3785],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4500, "stroke": true, "weight": 3}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+        var popup_b6500f74defcd4216e6b747a2c051fd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_605de903bd6b3f3a893d19b6a4ac5654 = $(`<div id="html_605de903bd6b3f3a893d19b6a4ac5654" style="width: 100.0%; height: 100.0%;">Museum District (ZIP 77004): 45 entities</div>`)[0];
+                popup_b6500f74defcd4216e6b747a2c051fd0.setContent(html_605de903bd6b3f3a893d19b6a4ac5654);
+            
+        
+
+        circle_12b9bc198a9fe6d51f263b065eefc099.bindPopup(popup_b6500f74defcd4216e6b747a2c051fd0)
+        ;
+
+        
+    
+    
+            var circle_f29f5a2a59bb27f656a6cd008eeeb81e = L.circle(
+                [30.1255, -95.4555],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+        var popup_002d07ec2eabeeb5d65bcf71f7c37fd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29414f1db4899010eecbe9a46e45f882 = $(`<div id="html_29414f1db4899010eecbe9a46e45f882" style="width: 100.0%; height: 100.0%;">The Woodlands (ZIP 77380): 30 entities</div>`)[0];
+                popup_002d07ec2eabeeb5d65bcf71f7c37fd2.setContent(html_29414f1db4899010eecbe9a46e45f882);
+            
+        
+
+        circle_f29f5a2a59bb27f656a6cd008eeeb81e.bindPopup(popup_002d07ec2eabeeb5d65bcf71f7c37fd2)
+        ;
+
+        
+    
+    
+            var circle_fdd76edbbb38cb954e86e298040a4e1a = L.circle(
+                [29.5985, -95.6225],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+        var popup_4e0efbb02b8a348afe740abd90acb89a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7af26bc145076b4a00415c12acfddf24 = $(`<div id="html_7af26bc145076b4a00415c12acfddf24" style="width: 100.0%; height: 100.0%;">Sugar Land (ZIP 77479): 30 entities</div>`)[0];
+                popup_4e0efbb02b8a348afe740abd90acb89a.setContent(html_7af26bc145076b4a00415c12acfddf24);
+            
+        
+
+        circle_fdd76edbbb38cb954e86e298040a4e1a.bindPopup(popup_4e0efbb02b8a348afe740abd90acb89a)
+        ;
+
+        
+    
+    
+            var marker_f4c8fde1d2326c5d9e7ed8bf8b28659b = L.marker(
+                [29.7105, -95.4015],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_fd1295c3b16e50facfd43608936041cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e53803adde13e10d3057e63acdbeb75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b326d0fa07389228f79f7a1b16e037d = $(`<div id="html_1b326d0fa07389228f79f7a1b16e037d" style="width: 100.0%; height: 100.0%;">Houston Methodist Primary Care Group</div>`)[0];
+                popup_7e53803adde13e10d3057e63acdbeb75.setContent(html_1b326d0fa07389228f79f7a1b16e037d);
+            
+        
+
+        marker_f4c8fde1d2326c5d9e7ed8bf8b28659b.bindPopup(popup_7e53803adde13e10d3057e63acdbeb75)
+        ;
+
+        
+    
+    
+                marker_f4c8fde1d2326c5d9e7ed8bf8b28659b.setIcon(icon_fd1295c3b16e50facfd43608936041cf);
+            
+    
+            var marker_0fda49a33bb6c4ad29a1197d3665650e = L.marker(
+                [29.7105, -95.4015],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_3a8a23196b825cf1f0eb5ddc6a4e79f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa64261112c437d399b7eac6540ed67c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_829c4c4dccce69c3a8987b9f99a2f3b5 = $(`<div id="html_829c4c4dccce69c3a8987b9f99a2f3b5" style="width: 100.0%; height: 100.0%;">Houston Methodist Specialty Physician Group</div>`)[0];
+                popup_fa64261112c437d399b7eac6540ed67c.setContent(html_829c4c4dccce69c3a8987b9f99a2f3b5);
+            
+        
+
+        marker_0fda49a33bb6c4ad29a1197d3665650e.bindPopup(popup_fa64261112c437d399b7eac6540ed67c)
+        ;
+
+        
+    
+    
+                marker_0fda49a33bb6c4ad29a1197d3665650e.setIcon(icon_3a8a23196b825cf1f0eb5ddc6a4e79f4);
+            
+    
+            var marker_0ab0f51c257c6f41ac62079bd2a327ef = L.marker(
+                [29.7105, -95.4015],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_55f0103a44866ec9dbad56780c0a52bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74b1df3bbdb9321830e4f14b881dd39a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b21be32ecc1f7d837ce7f1247669193a = $(`<div id="html_b21be32ecc1f7d837ce7f1247669193a" style="width: 100.0%; height: 100.0%;">Memorial Hermann Medical Group</div>`)[0];
+                popup_74b1df3bbdb9321830e4f14b881dd39a.setContent(html_b21be32ecc1f7d837ce7f1247669193a);
+            
+        
+
+        marker_0ab0f51c257c6f41ac62079bd2a327ef.bindPopup(popup_74b1df3bbdb9321830e4f14b881dd39a)
+        ;
+
+        
+    
+    
+                marker_0ab0f51c257c6f41ac62079bd2a327ef.setIcon(icon_55f0103a44866ec9dbad56780c0a52bf);
+            
+    
+            var marker_86e3483a24ee4be4a922dc78e0b9f3fd = L.marker(
+                [29.7105, -95.4015],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_b39d47437691e8272f198d3e4141aa0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d77de9f07e07b0b24397b87db7169c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612c22a1a39c2f163f268e84ca6bbda8 = $(`<div id="html_612c22a1a39c2f163f268e84ca6bbda8" style="width: 100.0%; height: 100.0%;">UT Physicians (UTHealth Houston)</div>`)[0];
+                popup_9d77de9f07e07b0b24397b87db7169c0.setContent(html_612c22a1a39c2f163f268e84ca6bbda8);
+            
+        
+
+        marker_86e3483a24ee4be4a922dc78e0b9f3fd.bindPopup(popup_9d77de9f07e07b0b24397b87db7169c0)
+        ;
+
+        
+    
+    
+                marker_86e3483a24ee4be4a922dc78e0b9f3fd.setIcon(icon_b39d47437691e8272f198d3e4141aa0d);
+            
+    
+            var marker_341432d33f09efdd0014b29073d38d0d = L.marker(
+                [29.8035, -95.3305],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_bcef63505929f306c1b9d88a2a69aafc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0107bb38d1f96c940f8fadf034141f3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d335624c50dbf536c016cb68863b0db = $(`<div id="html_8d335624c50dbf536c016cb68863b0db" style="width: 100.0%; height: 100.0%;">Harris Health System Physicians</div>`)[0];
+                popup_0107bb38d1f96c940f8fadf034141f3e.setContent(html_8d335624c50dbf536c016cb68863b0db);
+            
+        
+
+        marker_341432d33f09efdd0014b29073d38d0d.bindPopup(popup_0107bb38d1f96c940f8fadf034141f3e)
+        ;
+
+        
+    
+    
+                marker_341432d33f09efdd0014b29073d38d0d.setIcon(icon_bcef63505929f306c1b9d88a2a69aafc);
+            
+    
+            var marker_ddc133948818edbc3683ac515d05f10b = L.marker(
+                [29.8035, -95.3305],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_080a9172ae5f4ba06bd36db9cab2b79c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01bf0892d10525570f162951e5e0715a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_196ebc04552400d68f0bf641273155c4 = $(`<div id="html_196ebc04552400d68f0bf641273155c4" style="width: 100.0%; height: 100.0%;">Greater Houston Physicians Medical Association</div>`)[0];
+                popup_01bf0892d10525570f162951e5e0715a.setContent(html_196ebc04552400d68f0bf641273155c4);
+            
+        
+
+        marker_ddc133948818edbc3683ac515d05f10b.bindPopup(popup_01bf0892d10525570f162951e5e0715a)
+        ;
+
+        
+    
+    
+                marker_ddc133948818edbc3683ac515d05f10b.setIcon(icon_080a9172ae5f4ba06bd36db9cab2b79c);
+            
+    
+            var marker_1f1bd9911e95fbc3e16df1f79e4a83a9 = L.marker(
+                [29.7255, -95.3785],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_35f5f81096fd1ec2cb7c8f170d4504b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_651ba4881e51ca1468cb4914cbdbac1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_369e70b453fd5078d12e39109d73cdfb = $(`<div id="html_369e70b453fd5078d12e39109d73cdfb" style="width: 100.0%; height: 100.0%;">HCA Houston Healthcare Physicians</div>`)[0];
+                popup_651ba4881e51ca1468cb4914cbdbac1e.setContent(html_369e70b453fd5078d12e39109d73cdfb);
+            
+        
+
+        marker_1f1bd9911e95fbc3e16df1f79e4a83a9.bindPopup(popup_651ba4881e51ca1468cb4914cbdbac1e)
+        ;
+
+        
+    
+    
+                marker_1f1bd9911e95fbc3e16df1f79e4a83a9.setIcon(icon_35f5f81096fd1ec2cb7c8f170d4504b1);
+            
+    
+            var marker_b4c81a13a00a61485c1768277c7235c8 = L.marker(
+                [29.7255, -95.3785],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_2e5f3eed5c15dacf1d49a6f1fe30d5d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a750591d6af8808db678dd15384c086 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c46779c4e79fe19c347f71699f8dfaa6 = $(`<div id="html_c46779c4e79fe19c347f71699f8dfaa6" style="width: 100.0%; height: 100.0%;">Dr. Rochelle Pondt (Independent)</div>`)[0];
+                popup_8a750591d6af8808db678dd15384c086.setContent(html_c46779c4e79fe19c347f71699f8dfaa6);
+            
+        
+
+        marker_b4c81a13a00a61485c1768277c7235c8.bindPopup(popup_8a750591d6af8808db678dd15384c086)
+        ;
+
+        
+    
+    
+                marker_b4c81a13a00a61485c1768277c7235c8.setIcon(icon_2e5f3eed5c15dacf1d49a6f1fe30d5d3);
+            
+    
+            var marker_59133c24569a3a2ccc91197863bf54d9 = L.marker(
+                [30.1255, -95.4555],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_155d87382246de02cc1b2a3f0f131b3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f266062ba77710c9344818a24255160e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a94af75a023221e8204199c26c9cfc0 = $(`<div id="html_1a94af75a023221e8204199c26c9cfc0" style="width: 100.0%; height: 100.0%;">St. Luke’s Medical Group</div>`)[0];
+                popup_f266062ba77710c9344818a24255160e.setContent(html_1a94af75a023221e8204199c26c9cfc0);
+            
+        
+
+        marker_59133c24569a3a2ccc91197863bf54d9.bindPopup(popup_f266062ba77710c9344818a24255160e)
+        ;
+
+        
+    
+    
+                marker_59133c24569a3a2ccc91197863bf54d9.setIcon(icon_155d87382246de02cc1b2a3f0f131b3e);
+            
+    
+            var marker_154bf8f6781c5482bbdee912ad4dc649 = L.marker(
+                [30.1255, -95.4555],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_202e4d6e949bc5496fc8183b84950686 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62de1783f85ef1da7a21aed41ade8a79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_962afd0601529fae02da6f60be49705d = $(`<div id="html_962afd0601529fae02da6f60be49705d" style="width: 100.0%; height: 100.0%;">Memorial Hermann Medical Group (The Woodlands)</div>`)[0];
+                popup_62de1783f85ef1da7a21aed41ade8a79.setContent(html_962afd0601529fae02da6f60be49705d);
+            
+        
+
+        marker_154bf8f6781c5482bbdee912ad4dc649.bindPopup(popup_62de1783f85ef1da7a21aed41ade8a79)
+        ;
+
+        
+    
+    
+                marker_154bf8f6781c5482bbdee912ad4dc649.setIcon(icon_202e4d6e949bc5496fc8183b84950686);
+            
+    
+            var marker_6f57b6b9b315c10df09bd0c4b0015942 = L.marker(
+                [29.5985, -95.6225],
+                {
+}
+            ).addTo(map_8bfb8c94cfb01866b0719900a39c6e81);
+        
+    
+            var icon_a488abcbc22cecf660e9307422cf3fa3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "user-md",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b10f18daa79cf90767174543891c9351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1405cdb8d6c7db62da35fb9dc693c01e = $(`<div id="html_1405cdb8d6c7db62da35fb9dc693c01e" style="width: 100.0%; height: 100.0%;">Houston Methodist Primary Care Group (Sugar Land)</div>`)[0];
+                popup_b10f18daa79cf90767174543891c9351.setContent(html_1405cdb8d6c7db62da35fb9dc693c01e);
+            
+        
+
+        marker_6f57b6b9b315c10df09bd0c4b0015942.bindPopup(popup_b10f18daa79cf90767174543891c9351)
+        ;
+
+        
+    
+    
+                marker_6f57b6b9b315c10df09bd0c4b0015942.setIcon(icon_a488abcbc22cecf660e9307422cf3fa3);
+            
+</script>
+</html>
